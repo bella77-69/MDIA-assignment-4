@@ -1,0 +1,13 @@
+.jumbotron {
+    /* background-color:  #cbcbcb; */
+    color: #060606;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.breadcrumb-sm {
+    /* background-color: #f5f5f5; */
+    padding: .275rem .75rem;
+    font-size: .875rem;
+    line-height: 1.5;;
+}
