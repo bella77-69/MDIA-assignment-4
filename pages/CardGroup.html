@@ -18,70 +18,67 @@
   </head>
 
   <body>
-    <nav class="navbar">
-      <div class="container">
-        <button
-          class="navbar-toggler hidden-sm-up"
-          type="button"
-          data-toggle="collapse"
-          data-target="#menu"
-        >
-          &#9776;
-        </button>
-
-        <div class="navbar-brand">MDIA 3211</div>
-
-        <div class="collapse navbar-toggleable-xs" id="menu">
-          <ul class="nav nav-responsive">
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pagination.html">Pagination</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./CardColumn.html">Card Column</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./CardDeck.html">Card Deck</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./responsiveMedia.html"
-                >Responsive Media</a
-              >
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                data-toggle="dropdown"
-                href="./listGroup.html"
-                >Dropdown</a
-              >
-              <div class="dropdown-menu">
-                <div class="dropdown-header">Dropdown header</div>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="./listGroup.html">List Group</a>
-                <a class="dropdown-item" href="./CardGroup.html">Card Group</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <!-- collapse -->
-      </div>
-      <!-- container -->
-    </nav>
-
     <div class="container">
-      <ul class="breadcrumb">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../pages/pagination.html">Pagination</a></li>
-        <li><a href="../pages/CardColumn.html">Card Column</a></li>
-        <li><a href="../pages/CardDeck.html">Card Deck</a></li>
-        <li><a href="../pages/responsiveMedia.html">Responsive Media</a></li>
-        <li><a href="../pages/listGroup.html">List Group</a></li>
-
-        <li class="active">Card Group</li>
-      </ul>
+      <div class="row">
+        <div class="col-xs-12 text-md-right top-nav">
+          <br>
+          <h4>New York</h4>
+          <br>
+        </div><!-- col -->
+  
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 navbar-menu">
+          <br>
+          <nav class="navbar custom-nav">
+            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#menu">
+              &#9776;
+            </button>
+            <div class="collapse navbar-toggleable-xs" id="menu">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pagination.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./CardColumn.html">Card Column</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./CardDeck.html">Card Deck</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./responsiveMedia.html">Responsive Media</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="./listGroup.html">Dropdown</a>
+                  <div class="dropdown-menu">
+                    <div class="dropdown-header">Images</div>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./listGroup.html">List Group</a>
+                    <a class="dropdown-item" href="./CardGroup.html">Card Group</a>
+  
+                  </div><!-- dropdown-menu -->
+                </li><!-- nav-item dropdown -->
+  
+              </ul>
+            </div><!--toggle-->
+          </nav>
+        </div><!--col -->
+        <div class="col-xs-12 col-sm-8 col-md-9 col-lg-10 col-xl-14">
+          <br>
+  
+          <ul class="breadcrumb breadcrumb-sm">
+            <li><a href="../index.html">Home</a></li>
+            <li class="active">Pagination</li>
+            <li><a href="../pages/CardColumn.html">Card Column</a></li>
+            <li><a href="../pages/CardDeck.html">Card Deck</a></li>
+            <li><a href="../pages/responsiveMedia.html">Responsive Media</a></li>
+            <li><a href="../pages/listGroup.html">List Group</a></li>
+  
+            <li><a href="../pages/CardGroup.html">Card Group</a></li>
+          </ul>
+        </div><!-- col -->
+  
 
       <div class="row">
         <div class="col-sm-6">
@@ -177,8 +174,7 @@
               </div><!--card-group -->
           </div><!--col -->
       </div><!--row -->
-    </div>
-    <!--container -->
+    </div><!--container -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
