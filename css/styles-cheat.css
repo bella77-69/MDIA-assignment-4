@@ -1,17 +1,21 @@
 .navbar {
     background-color:  #eceeef;
+    /* background-color: #2F996E; */
     padding: 1rem 0;
-    /* background-color: #808080; */
+
 }
 
 .top-nav {
-    background-color: #eceeef;
-    color: #000000;
-
+     background-color: #eceeef; 
+      color: #000000; 
+    /* background-color: #2F996E;
+  
+    color: #FEFBED; */
 }
 
 .navbar-brand {
-    color: #080808;
+    /* color: #080808; */
+    color: #FEFBED;
     border-radius: 8px;
     font-size: 1rem;
 }

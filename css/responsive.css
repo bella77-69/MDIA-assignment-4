@@ -9,9 +9,10 @@ margin-left:1rem;
 .nav {
 padding: 0;
 }
+
 }
 
-@media (max-width: 408px) {
+@media (max-width: 430px) {
     .custom-card {
         display: flex;
         flex-direction: column;
