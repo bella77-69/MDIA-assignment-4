@@ -1,14 +1,15 @@
-@media (min-width:544px){
-.nav-responsive li{
-display:inline-block;
-}
-.nav-responsive .nav-item+.nav-item{
-margin-left:1rem;
-}
+@media (min-width:544px) {
+    .nav-responsive li {
+        display: inline-block;
+    }
 
-.nav {
-padding: 0;
-}
+    .nav-responsive .nav-item+.nav-item {
+        margin-left: 1rem;
+    }
+
+    .nav {
+        padding: 0;
+    }
 
 }
 

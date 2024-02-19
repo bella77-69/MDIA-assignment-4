@@ -1,27 +1,115 @@
-.jumbotron {
-    background-color:  #eceeef;
-    color: #020202;
-    /* color: #FEFBED; */
-    /* background-color: #2F996E; */
+body {
+    background-color: #dedede;
+}
 
+/* navbar */
+.navbar {
+    background-color: #eceeef;
+    padding: 1rem 0;
+}
+
+.top-nav {
+    background-color: #eceeef;
+    color: #000000;
+}
+
+.navbar-brand {
+    color: #FEFBED;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.nav {
+    padding: 1rem 0;
+}
+
+.nav-link {
+    color: #020202;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    background: #020202;
+    color: #ffffff;
+}
+
+.nav-link:focus {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.dropdown-menu {
+    background-color: #eceeef;
+}
+
+.dropdown-item {
+    text-align: center;
+    background-color: #eceeef;
+    color: #020202;
+    border-radius: 10px;
+}
+
+.dropdown-item:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.dropdown-item:focus {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.dropdown-divider {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.dropdown-header {
+    background: #eceeef;
+    color: #020202;
+    font-size: 1.125rem;
+}
+
+.navbar-toggler {
+    color: #000000;
+}
+
+.navbar-toggler:hover {
+    color: #000000;
+    border-radius: 10px;
+}
+
+.navbar-toggler:focus {
+    color: rgb(0, 0, 0);
+}
+
+/* jumbotron */
+.jumbotron {
+    background-color: #eceeef;
+    color: #020202;
     font-family: 'Montserrat', sans-serif;
 }
 
+/* breadcrumb */
 .breadcrumb-sm {
-    /* background-color: #f5f5f5; */
     padding: .275rem .75rem;
     font-size: .875rem;
-    line-height: 1.5;;
+    line-height: 1.5;
 }
 
+/* card */
 .card-block {
-    /* background-color: #eceeef; */
     color: #020202;
 }
 
-/* .card-deck {
-   border: none;
-} */
+.card {
+    background-color: #eceeef;
+    color: #020202;
+    border: none;
+}
 
 .card-footer {
     background-color: #eceeef;
@@ -31,22 +119,22 @@
 
 .card-subtitle {
     font-size: 1rem;
-    padding: 0 10px;
+    font-style: italic;
 }
 
 .card-text {
     font-size: .875rem;
-    padding: 0 10px;
 }
 
 .card-heading {
     font-size: 1.25rem;
     padding: 0;
-    color: #000000; 
-    font-weight: bold; 
-    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5); 
+    color: #000000;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.6);
 }
 
+/* button */
 .button {
     border: 1px solid #c2c2c2;
     color: #020202;
@@ -58,4 +146,9 @@
 .button:hover {
     background: #000000;
     color: #ffffff;
+}
+
+/* list group */
+.list-group {
+    margin-bottom: 1rem;
 }
