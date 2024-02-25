@@ -10,7 +10,6 @@
     .nav {
         padding: 0;
     }
-
 }
 
 @media (max-width: 430px) {
@@ -22,5 +21,9 @@
 
     .button {
         margin-top: 10px;
+    }
+
+    .footer-title {
+        text-align: center;
     }
 }

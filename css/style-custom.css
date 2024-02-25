@@ -1,5 +1,5 @@
 body {
-    background-color: #dedede;
+    background: radial-gradient(circle, #c2c2c2, #666666);
 }
 
 /* navbar */
@@ -32,7 +32,7 @@ body {
 }
 
 .nav-link:hover {
-    background: #020202;
+    background: radial-gradient(circle, #9f9e9e, #666666);
     color: #ffffff;
 }
 
@@ -41,8 +41,10 @@ body {
     color: rgb(0, 0, 0);
 }
 
+/* dropdown */
 .dropdown-menu {
     background-color: #eceeef;
+    margin: 0 10px;
 }
 
 .dropdown-item {
@@ -53,12 +55,11 @@ body {
 }
 
 .dropdown-item:hover {
-    background: #000000;
+    background: radial-gradient(circle, #9f9e9e, #666666);
     color: #ffffff;
 }
 
 .dropdown-item:focus {
-    background-color: #ffffff;
     color: rgb(0, 0, 0);
 }
 
@@ -73,12 +74,15 @@ body {
     font-size: 1.125rem;
 }
 
+/* navbar toggler */
 .navbar-toggler {
     color: #000000;
+    margin: 0 10px;
 }
 
 .navbar-toggler:hover {
-    color: #000000;
+    background: radial-gradient(circle, #9f9e9e, #666666);
+    color: #ffffff;
     border-radius: 10px;
 }
 
@@ -98,6 +102,16 @@ body {
     padding: .275rem .75rem;
     font-size: .875rem;
     line-height: 1.5;
+    color: #020202;
+}
+
+.breadcrumb-sm a {
+    color: #020202;
+}
+
+.breadcrumb-sm li.active {
+    color: #020202;
+    font-weight: bold;
 }
 
 /* card */
@@ -134,6 +148,39 @@ body {
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.6);
 }
 
+/* list group */
+.list-group {
+    margin-bottom: 1rem;
+}
+
+.list-group-item.active {
+    background-color: #eceeef;
+    border-color: #eceeef;
+    color: #020202;
+}
+
+.list-group-item.active:hover {
+    background-color: #eceeef;
+    border-color: #eceeef;
+    color: #020202;
+}
+
+/*pagination */
+.page-item.active .page-link {
+    background-color: #eceeef;
+    border-color: #eceeef;
+    color: #020202;
+}
+
+.page-link {
+    color: #020202;
+}
+
+.page-link:hover {
+    background: radial-gradient(circle, #9f9e9e, #666666);
+    color: #ffffff;
+}
+
 /* button */
 .button {
     border: 1px solid #c2c2c2;
@@ -144,11 +191,6 @@ body {
 }
 
 .button:hover {
-    background: #000000;
+    background: radial-gradient(circle, #9f9e9e, #666666);
     color: #ffffff;
-}
-
-/* list group */
-.list-group {
-    margin-bottom: 1rem;
 }
